@@ -3,6 +3,8 @@ CABROS para correrlo
 descarguen las dependencias escribiendo en terminal
 pip install -r requirements.txt
 
+tambien descarguen https://github.com/deepinsight/insightface/releases/download/v0.7/buffalo_l.zip, extraigan el contenido en backend/face_api/models/ menos el archivo 1k3d68.onnx
+
 
 despues creen la base de datos en mariadb, si no usan, modifquen init_db.py  para mysql
 despues corrarn el archivo init_db.py
